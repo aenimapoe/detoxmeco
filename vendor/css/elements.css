@@ -278,7 +278,16 @@ a{text-decoration: none;}
     margin: 0 auto;
 }
 
+.mega-elements .menu_bars span:nth-child(1), .mega-elements .menu_bars span:nth-child(4) {
+    width: 20px;
+    margin: 0 auto;
+}
+
 .mega-elements .mega-elements .menu_bars:hover span:nth-child(1), .mega-elements .mega-elements .menu_bars:hover span:nth-child(3) {
+    width: 30px;
+}
+
+.mega-elements .mega-elements .menu_bars:hover span:nth-child(1), .mega-elements .mega-elements .menu_bars:hover span:nth-child(4) {
     width: 30px;
 }
 
@@ -298,6 +307,14 @@ a{text-decoration: none;}
     margin-top: -1px;
 }
 
+.mega-elements .menu_bars2 span:nth-child(1), .mega-elements .menu_bars2 span:nth-child(4) {
+    width: 30px;
+    top: 20px;
+    position: absolute;
+    left: 5px;
+    margin-top: -1px;
+}
+
 .mega-elements .menu_bars2 span:nth-child(1) {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -306,6 +323,13 @@ a{text-decoration: none;}
 }
 
 .mega-elements .menu_bars2 span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.mega-elements .menu_bars2 span:nth-child(4) {
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
@@ -785,6 +809,11 @@ header.mega-elements  .fixed-menu.navbar-top-default .header-social a:hover {
 }
 
 .mega-elements .nav-icon .navbar-nav .nav-link:nth-child(3).active ~ .menu-line{
+    -webkit-transform: translate3d(0, 200%, 0);
+    transform: translate3d(0, 200%, 0);
+}
+
+.mega-elements .nav-icon .navbar-nav .nav-link:nth-child(4).active ~ .menu-line{
     -webkit-transform: translate3d(0, 200%, 0);
     transform: translate3d(0, 200%, 0);
 }
@@ -1653,6 +1682,10 @@ header.mega-elements  .fixed-menu.navbar-top-default .header-social a:hover {
 }
 
 .ui-block-03.about-sec .about-card.active:nth-child(3){
+    background: #6c30eb;
+}
+
+.ui-block-03.about-sec .about-card.active:nth-child(4){
     background: #6c30eb;
 }
 
