@@ -1674,7 +1674,7 @@ header.mega-elements  .fixed-menu.navbar-top-default .header-social a:hover {
 }
 
 .ui-block-03.about-sec .about-card.active:nth-child(1){
-    background: #6c30eb;
+    background: #006eed;
 }
 
 .ui-block-03.about-sec .about-card.active:nth-child(2){
@@ -1682,7 +1682,7 @@ header.mega-elements  .fixed-menu.navbar-top-default .header-social a:hover {
 }
 
 .ui-block-03.about-sec .about-card.active:nth-child(3){
-    background: #6c30eb;
+    background: #006eed;
 }
 
 .ui-block-03.about-sec .about-card.active:nth-child(4){
@@ -5719,7 +5719,7 @@ section.ui-block-25 {
 .ui-block-29.about-us .about-list li .a-icon{
     font-size: 25px;
     margin-right: 15px;
-    color:#a07bf7;
+    color:#006eed;
 }
 
 .ui-block-29.about-us .main-color {
@@ -25360,7 +25360,7 @@ section.ui-block-25 {
 
 .ui-block-21.reviews  {font-family: 'Roboto', sans-serif; font-size: 16px;color: #696969;font-weight:300;line-height:30px;letter-spacing: 0.2px;width: 100%; overflow-x: hidden}
 .ui-block-21.reviews h1, .ui-block-21.reviews h2, .ui-block-21.reviews h3, .ui-block-21.reviews h4, .ui-block-21.reviews h5, .ui-block-21.reviews h6 {line-height: 1.2; font-weight: 500; font-family: 'Montserrat', sans-serif; color: #404854;}
-section,.section-padding {position: relative;padding: 7.5rem 0;overflow: hidden;}
+section,.section-padding {position: relative;padding: 15rem 0;overflow: hidden;}
 
 .ui-block-21.reviews.gradient-bg1{
     background: #3264f5;

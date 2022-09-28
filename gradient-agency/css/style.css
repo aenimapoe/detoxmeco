@@ -42,16 +42,16 @@
 /* Background color */
 .bg-transparent {background: transparent;}
 .bg-pink {background: #f0316a;}
-.bg-purple {background: #6c30eb;}
-.bg-green {background: #05c38a;}
+.bg-purple {background: #006eed;}
+.bg-green {background: #06b6b1;}
 .bg-blue {background: #0c95f8;}
 
 /* Text color */
 .text-white {color: #ffffff;}
 .text-pink {color: #f0316a;}
 .text-black {color: #202020;}
-.text-purple { color: #6c30eb;}
-.text-green { color: #05c38a;}
+.text-purple { color: #006eed;}
+.text-green { color: #06b6b1;}
 .text-blue { color: #0c95f8;}
 
 /* ===================================
@@ -68,8 +68,8 @@ p:last-child{margin-bottom: 0 !important; font-family: 'Roboto', sans-serif;}
 li{list-style: none;text-decoration: none;}
 blockquote {border-left: 2px solid;padding: 10px 15px 10px 35px;margin: 25px 0;font-size: 18px;line-height: 28px;margin-top: 32px;margin-bottom: 32px;}
 blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
-section{padding: 7.5rem 0;}
-.padding-bottom {padding-bottom: 7.5rem;}
+section{padding: 15rem 0;}
+.padding-bottom {padding-bottom: 15rem;}
 .padding-top {padding-top: 120px;}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
@@ -317,7 +317,7 @@ header a.logo img {
 .navbar-expand-lg .navbar-nav .nav-link:last-child {
     padding: 25px 30px;
     color: #FFFFFF;
-    background-color: #6c30eb;
+    background-color: #006eed;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover:last-child{
@@ -331,11 +331,11 @@ header a.logo img {
 /*nav hvr*/
 
 .navbar .navbar-nav .nav-link:hover{
-    color:#4833cf;
+    color:#006eed;
 }
 
 .navbar .navbar-nav .nav-link.active{
-    color:#4833cf;
+    color:#006eed;
 }
 
 .navbar .navbar-nav .nav-link.active:last-child{
@@ -749,7 +749,11 @@ header a.logo img {
     Banner Section
 ====================================== */
 .bg-banner{
-    background-color: #05c38a;
+    background-image: url("strs.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 .banner-image{
@@ -782,7 +786,7 @@ header a.logo img {
 
 .btn.btn-pink {background: #FFFFFF; border-color: #FFFFFF; color: #000000}
 .btn.btn-hvr-blue:hover, .btn.btn-hvr-blue:focus{color: #FFFFFF;border-color: #4b33d0;background: transparent !important;}
-.btn.btn-hvr-blue .btn-hvr-effect {background: #6c30eb;border-color: #6c30eb}
+.btn.btn-hvr-blue .btn-hvr-effect {background: #006eed;border-color: #006eed}
 
 .btn-hvr-setting {z-index: -1;position: absolute;left: 0;top: 0;width: 100%;height: 100%;border-radius: 50px;}
 .btn-hvr-setting-inner {position: relative;display: block;height: 100%;list-style: none;padding: 0;margin: 0}
