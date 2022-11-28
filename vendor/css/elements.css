@@ -6503,7 +6503,7 @@ section.ui-block-25 {
     -ms-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    background: #592b1c;
+    background: #28a745;
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
     display: flex;
@@ -6538,7 +6538,7 @@ section.ui-block-25 {
 }
 
 .ui-block-34.about .text-main {
-    color: #592b1c;
+    color: #28a745;
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px){

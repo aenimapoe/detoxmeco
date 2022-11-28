@@ -42,15 +42,15 @@
 /* Background color */
 .bg-transparent {background: transparent;}
 .bg-pink {background: #f0316a;}
-.bg-purple {background: #006eed;}
-.bg-green {background: #006eed;}
+.bg-purple {background: #28a745;}
+.bg-green {background: #28a745;}
 .bg-blue {background: #0c95f8;}
 
 /* Text color */
 .text-white {color: #ffffff;}
 .text-pink {color: #f0316a;}
 .text-black {color: #202020;}
-.text-purple { color: #006eed;}
+.text-purple { color: #28a745;}
 .text-green { color: #06b6b1;}
 .text-blue { color: #0c95f8;}
 
@@ -317,7 +317,7 @@ header a.logo img {
 .navbar-expand-lg .navbar-nav .nav-link:last-child {
     padding: 25px 30px;
     color: #FFFFFF;
-    background-color: #006eed;
+    background-color: #28a745;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover:last-child{
@@ -331,11 +331,11 @@ header a.logo img {
 /*nav hvr*/
 
 .navbar .navbar-nav .nav-link:hover{
-    color:#006eed;
+    color:#28a745;
 }
 
 .navbar .navbar-nav .nav-link.active{
-    color:#006eed;
+    color:#28a745;
 }
 
 .navbar .navbar-nav .nav-link.active:last-child{
@@ -750,10 +750,9 @@ header a.logo img {
 ====================================== */
 .bg-banner{
     background-image: url("strs.jpg");
-    background-size: cover;
+	background-position: center center;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
 }
 
 .banner-image{
@@ -786,7 +785,7 @@ header a.logo img {
 
 .btn.btn-pink {background: #FFFFFF; border-color: #FFFFFF; color: #000000}
 .btn.btn-hvr-blue:hover, .btn.btn-hvr-blue:focus{color: #FFFFFF;border-color: #4b33d0;background: transparent !important;}
-.btn.btn-hvr-blue .btn-hvr-effect {background: #006eed;border-color: #006eed}
+.btn.btn-hvr-blue .btn-hvr-effect {background: #28a745;border-color: #28a745}
 
 .btn-hvr-setting {z-index: -1;position: absolute;left: 0;top: 0;width: 100%;height: 100%;border-radius: 50px;}
 .btn-hvr-setting-inner {position: relative;display: block;height: 100%;list-style: none;padding: 0;margin: 0}
@@ -1023,14 +1022,12 @@ header a.logo img {
 .heading-area .sub-title {
     font-size: 22px;
     font-weight: 500;
-    color: #0a69de;
     font-family: 'Roboto', sans-serif;
 }
 
 .heading-area .title {
     font-size: 40px;
     font-weight: 500;
-    width: 50%;
     margin: auto;
     padding-top: 25px;
     font-family: 'Poppins', sans-serif;
