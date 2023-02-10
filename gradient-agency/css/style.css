@@ -750,7 +750,6 @@ header a.logo img {
 ====================================== */
 .bg-banner{
     background-image: url("strs.jpg");
-	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
